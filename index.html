@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEASE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h1 class="question">Dear Ximena,</h1>
+        <h2 class="question">Will you be my valentine?</h2>
+
+        
+        <div class="buttons-container">
+            <button class="heart-btn yes-btn" id="yesBtn">
+                <span class="heart">❤️</span>
+                <span class="label">Yes</span>
+            </button>
+            
+            <button class="heart-btn no-btn" id="noBtn">
+                <span class="broken-heart">💔</span>
+                <span class="label">No</span>
+            </button>
+        </div>
+        
+        <div class="wrong-message" id="wrongMessage">WRONG</div>
+    </div>
+    
+    <div class="celebration-container" id="celebrationContainer">
+        <h1 class="yay-message">YAY!</h1>
+        <img class="celebration-gif" id="celebrationGif" src="" alt="Dancing raccoon">
+        <h2 class="yay-message">I love you!!! ❤️</h2>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>

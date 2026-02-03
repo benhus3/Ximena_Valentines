@@ -1,0 +1,13 @@
+Some sort of static site using js
+
+Will you be my valentine?
+
+two hearts
+yes
+no
+
+if no is pressed flash up a massive WRONG
+
+when yes is pressed do a confetti animation and show emojis holding hands
+
+
